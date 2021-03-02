@@ -1,14 +1,17 @@
 #sideBar{
     height: 100vh;
     padding-top: 80px;
-    
+    position: fixed;
     background-color: #191F26;
     
 }
 
 #dashboard{
     margin-top: 60px;
-    
+    position: absolute;
+ 
+  left: 16.78%;
+
 }
 
 #navbar{
