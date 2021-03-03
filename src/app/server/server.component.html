@@ -5,7 +5,11 @@
     </div>
     <div class="card-body status">
        {{ serverInput.isOnline }}
+       
     </div>
-     <button (click)="toggleStatus(serverInput.isOnline)" 
-    class="btn btn-light action">Toggle Status</button>
+    <div class="d-mx-auto">
+        <button (click)="toggleStatus(serverInput.isOnline)" 
+        class="btn btn-light action">{{buttonText}}</button>
+    </div>
+    
 </div>
