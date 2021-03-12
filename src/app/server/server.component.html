@@ -4,11 +4,11 @@
         {{ serverInput.name }}
     </div>
     <div class="card-body status">
-       {{ serverInput.isOnline }}
+       {{ serverStatus }}
        
     </div>
     <div class="d-mx-auto">
-        <button (click)="toggleStatus(serverInput.isOnline)" 
+        <button (click)="sendServerAction(serverInput.isOnline)" 
         class="btn btn-light action">{{buttonText}}</button>
     </div>
     
